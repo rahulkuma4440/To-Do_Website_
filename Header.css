@@ -1,0 +1,101 @@
+.c1{
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    color:white;
+}
+
+.header{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px grey;
+}
+
+.header > a{
+    text-decoration: none;
+    margin: 20px ;
+    color:black;
+}
+
+.container{
+    background-color: rgb(185, 185, 247);
+    width: 60%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container > form{
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, button{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.214);
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.container > h1{
+    text-align: center;
+}
+
+/* task */
+
+.task{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 10px;
+}
+
+.task > div{
+    width:100%;
+}
+
+.description{
+    color: rgb(84, 82, 82);
+}
+
+.btntask{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btntask:hover{
+    background-color: red;
+}
+
+/* contact */
+
+.contact{
+    background-color: red;
+    width:100%;
+    height: 100vh;
+}
+
+/* about */
+
+.about{
+    background-color: yellow;
+    width:100%;
+    height: 100vh;
+}
+
